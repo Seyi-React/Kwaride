@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import react from 'react';
+
+import Kwaride from './Home/Home';
+import Section, {Location} from './Section/Section';
+import SectionII from './sectionTwo/Section';
+import Book,{Download} from './sectionTwo/Book';
+import Driver from './sectionTwo/Driver';
+import { Footer } from './sectionTwo/Driver';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Kwaride />
+      <Section />
+      <Location />
+      <SectionII />
+      <Book/>
+      <Download />
+      <Driver/>
+      <Footer/>
     </div>
   );
 }

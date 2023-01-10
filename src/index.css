@@ -6,8 +6,502 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.heading {
+  color:rgb(4, 213, 4);
+  font-size: 2rem;
+  margin-left: 60px;
+}
+.links {
+ margin-top: 3rem;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  font-size: 20px;
+  font-weight:lighter;
+  cursor: pointer;
+  font-weight: bold;
+}
+a
+a:first-of-type {
+  text-decoration: underline;
+  /* color:rgb(4, 213, 4); */
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+.btn-div {
+  display: grid;
+  row-gap: 10px;
+  padding: 40px;
+}
+.icon{
+  float: right;
+}
+.icon-btn {
+  position: relative;
+  font-size: 35px;
+  right: 30px;
+  top: -55px;
+  background-color: white;
+  border: white;
+}
+.log-in {
+  height: 33px;
+  width: 125px;
+  color: rgb(4, 213, 4);
+  border: 1px solid rgb(4, 213, 4);
+  border-radius: 5px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.register {
+  height: 33px;
+  width: 125px;
+  background-color: rgb(45, 184, 45);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: white;
+}
+.section-div {
+  text-align: center;
+  margin-top:1.5rem;
+}
+.optimize > h1 {
+  color:rgb(4, 213, 4);
+  font-size: 2.7rem;
+  padding: 5px;
+  font-weight: 500;
+}
+.section-p > h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.section-btn > button {
+  width:300px;
+  height: 65px;
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(4, 213, 4);
+  margin-top: 20px;
+  color:white;
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.where > h3 {
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 20px;
+}
+.locate {
+  text-align: center;
+}
+  .locate > .section {
+  background-color: rgb(237, 237, 237);
+  margin: 50px 50px 50px 50px ;
+  border-radius: 8px;
+  padding-bottom: 70px;
+  padding-top: 20px;
+}
+::placeholder {
+  font-weight:bold;
+  position: relative;
+  left:20px;
+  color: black;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1px;
+}
+label {
+  display: block;
+  text-transform: uppercase;
+  margin-left: -120px;
+  padding: 20px 0 10px 0;
+  font-size: 20px;
+}
+.current,.destination{
+   width:270px;
+   height: 48px;
+   background: rgb(232, 226, 226);
+   border: none;
+   border-radius: 5px;
+}
+.date,.time {
+  width:170px;
+  height: 48px;
+  border: none;
+  background: rgb(232, 226, 226);
+  margin-left: -70px;
+  border-radius: 5px;
+}
+.ride-btn {
+  width: 220px;
+  height: 50px;
+  border: none;
+  position: relative;
+  top: -70px;
+  border-radius: 5px;
+  background-color:rgb(4, 213, 4);
+  color:white;
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.harsh {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:10px;
+}
+.black > p {
+  font-size: 50px;
+}
+.yellow > p {
+  font-size: 50px;
+  color: yellow;
+}
+.green > p {
+  color:green;
+  font-size: 50px;
+}
+.why > h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.world-class > section {
+  background-color: rgb(169, 234, 212);
+  margin: 40px 40px;
+  border-radius: 8px;
+}
+.professional > section {
+  background-color: antiquewhite;
+  margin: 0 40px 40px 40px;
+   border-radius: 8px;
+}
+.affordable > section {
+  background-color: rgb(169, 234, 212);
+  margin: 0 40px 40px 40px;
+  border-radius: 8px;
+}
+.tour > section {
+  background-color: antiquewhite;
+  margin: 0 40px 50px 40px;
+  border-radius: 8px;
+}
+section > h3 {
+  color:green;
+  font-size: 30px;
+   font-weight: lighter;
+   padding-top: 25px;
+   position: relative;
+   left: 30px;
+}
+section > p {
+  color: gray;
+  font-size: 18px;
+  position: relative;
+  top:-15px;
+  left: 30px;
+}
+section > span {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: green;
+  position: relative;
+  left:30px;
+  font-weight: bold;
+  top: -15px;
+}
+.arrow {
+  font-size: 18px;
+  position: relative;
+  top: 5px;
+}
+.enjoy {
+  text-align: center;
+  font-size: 20px;
+  font-weight: light;
+}
+.book-div {
+  text-align: center;
+}
+.booking {
+  display: grid;
+  row-gap: 50px;
+}
+.books {
+  font-size: 20px;
+  font-weight: bold;
+}
+.download {
+  font-size: 22px;
+  padding-top: 40px;
+}
+.store {
+  background-color: aliceblue;
+  box-shadow: 0px 2px 5px black;
+  margin: 50px 40px 40px 40px;
+  border-radius: 8px;
+}
+.available {
+  font-size: 23px;
+  position: relative;
+  left:30px;
+  padding-top: 15px;
+}
+    .p-store {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.green {
+  color: green;
+}
+.download-container {
+  background-color: rgb(205, 220, 235);
+  padding: 30px 0;
+  margin: 30px 0 50px 0;
+}
+.driver {
+  text-align: center;
+  background-color: bisque;
+  margin: 40px 30px;
+  border-radius: 5px;
+  padding-bottom: 30px;
+}
+.become {
+  font-size:25px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.join {
+  font-size:18px;
+}
+.earn {
+  width:300px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(13, 86, 13);
+  margin-top: 20px;
+  color:white;
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer {
+  text-align: center;
+}
+.footer-h1 {
+  color: rgb(32, 170, 32);
+  font-size: 37px;
+}
+.footer-p {
+  font-size: 20px;
+}
+.footer-h3 {
+  color:rgb(14, 209, 14);
+  font-size: 24px;
+  margin-top: 60px;
+}
+h6 {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.orange {
+  font-size: 50px;
+  color:orange;
+}
+.steps {
+  font-size: 50px;
+  color:green;
+}
+@media screen and (min-width:800px) {
+  .optimize > h1 {
+    font-size: 3.2rem;
+  }
+  .section-p > h3 {
+    font-size: 21px;
+  }
+  label {
+    font-size: 21px;
+  }
+  .ride-btn {
+    width:230px;
+    height:52px;
+    font-size: 22px;
+  }
+  .why > h3 {
+    font-size: 22px;
+  }
+  .arrow {
+    font-size: 23px;
+    top: 0;
+  }
+  section > span  {
+    font-size: 17px;
+  }
+  .join {
+    font-size: 21px;
+  }
+  .footer-p {
+    font-size:21px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+ a {
+  font-size:21px;
+ }
+}
+@media  screen and (min-width:1100px) {
+  
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .why {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-self: center;
+  }
+  .store-div {
+    display: grid;
+    grid-template-columns: auto auto ;
+    align-self: center;
+  }
+  .footer-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-div {
+    position: relative;
+    left: 65px;
+    top:40px;
+  }
+  .footer-last {
+    position: relative;
+    right:60px;
+  }
+  .optimize > h1 {
+    font-size: 3.5rem;
+  }
+  .orange {
+  font-size: 55px;
+}
+.steps {
+  font-size: 55px;
+}
+  }
+@media screen and (min-width:1400px) {
+  a {
+    font-size: 18px;
+    margin:10px;
+  }
+  li {
+    display: inline; 
+  }
+ .icon {
+  display:none;
+ }
+ .links {
+  display: flex;
+  justify-content: center;
+  margin-top:-65px;
+ }
+ .btn-div {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+  position: relative;
+  right: -350px;
+  top: -25px;
+ }
+ .optimize > h1 {
+  margin-top: 7.5rem;
+  font-size: 3.7rem;
+ }
+ .section-p > h3 {
+  font-size: 26px;
+ }
+ .where > h3 {
+  font-size: 28px;
+ }
+ label {
+  display: inline;
+  position: relative;
+  font-size: 16px;
+ }
+ .time {
+  position: relative;
+  right: -350px;
+ }
+ .label-time {
+  position: relative;
+  right: -270px;
+ }
+ .current-current {
+  left: -200px;
+ }
+ .current {
+  position: relative;
+  left:-190px;
+ }
+ .destination-destination {
+  left: -70px;
+ }
+ .destination {
+  position: relative;
+  left: -65px;
+ }
+ .date-date {
+  right: -55px;
+ }
+ .date {
+  position: relative;
+  right: -130px;
+ }
+ .yellow > p,.black > p,.green > p {
+  font-size: 65px;
+ }
+ .steps,.orange {
+  font-size: 68px;
+ }
+ .store {
+  margin-left: 60px;
+  margin-right: 60px;
+ }
+ .store-div {
+  gap: 20px;
+ }
+ .driver {
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 10px;
+ }
+ .footer-div {
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+ }
+ .footer-h3 {
+  margin-top: 100px;
+ }
+ .footer-last {
+  margin-right: 150px;
+ }
+ h6{
+  padding-top: 30px;
+  /* text-align: center; */
+ }
+
 }
